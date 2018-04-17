@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tLK-bN-aOi">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="MO0-2u-Lqq">
+            <objects>
+                <navigationController id="tLK-bN-aOi" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="waW-5G-2cX">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RFd-Lg-65l"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Md4-xS-aX9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1004" y="573"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="JTs-S7-g9A"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="2wA-vr-zH6" kind="show" identifier="splashToLoginSegue" id="jzs-8G-kmU"/>
+                        <segue destination="I4S-9a-5ed" kind="show" identifier="splashToMain" id="LXS-93-CNW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="573"/>
+        </scene>
+        <!--Reset Pass View Controller-->
+        <scene sceneID="ptO-RV-U97">
+            <objects>
+                <viewController id="Fbk-T3-IvB" customClass="ResetPassViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdG-gx-hYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="-102"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="Eob-Df-sko">
+            <objects>
+                <viewController id="2wA-vr-zH6" customClass="LoginViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="teE-1C-iTw" kind="show" identifier="loginToRegister" id="nYF-Y1-aHa"/>
+                        <segue destination="Fbk-T3-IvB" kind="show" identifier="loginToResetPass" id="vcT-Vg-1yh"/>
+                        <segue destination="I4S-9a-5ed" kind="show" identifier="loginToMainSegue" id="Uso-Ny-UEc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68n-BL-Z8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="761"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="2UN-5L-PXJ">
+            <objects>
+                <viewController id="teE-1C-iTw" customClass="RegisterViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <connections>
+                        <segue destination="I4S-9a-5ed" kind="show" identifier="registerToMain" id="x9M-RE-DrK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaQ-FY-8aA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="1620"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="8nh-85-mfI">
+            <objects>
+                <tabBarController id="Rf7-ly-y44" customClass="MainTabBarController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="BW2-HD-rfj"/>
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="scaleToFill" id="DLE-ai-nfF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.91372549020000005" green="0.35686274509999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.91372549020000005" green="0.35686274509999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mIW-Kh-MJb" kind="relationship" relationship="viewControllers" id="C3S-6J-TwC"/>
+                        <segue destination="ggx-fl-UDb" kind="relationship" relationship="viewControllers" id="kU6-Hx-nkh"/>
+                        <segue destination="h0B-Wy-BdM" kind="relationship" relationship="viewControllers" id="z5A-G2-MJG"/>
+                        <segue destination="ge9-xH-Ma5" kind="relationship" relationship="viewControllers" id="Abk-gr-8gQ"/>
+                        <segue destination="jYw-js-2fG" kind="relationship" relationship="viewControllers" id="vI4-2E-Tua"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k5h-f8-CVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2583" y="161"/>
+        </scene>
+        <!--Base Navigation Controller-->
+        <scene sceneID="XeR-rd-fmg">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="I4S-9a-5ed" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mcu-dp-wCB">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Rf7-ly-y44" kind="relationship" relationship="rootViewController" id="qhe-VB-QTS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9j-8f-DPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="761"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="oZg-eg-FFp">
+            <objects>
+                <viewController id="6zV-qf-imb" customClass="AboutViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k46-RS-sMQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="eGx-Vi-xae"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RRV-mg-KSg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cfX-dT-rRZ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AboutMenuTableViewCell" rowHeight="60" id="fYT-Zb-lAq" customClass="AboutMenuTableViewCell" customModule="Masai" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fYT-Zb-lAq" id="PbF-8n-RYh">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menüpunkt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FqI-DF-WrB">
+                                                    <rect key="frame" x="15" y="8" width="264" height="43.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FqI-DF-WrB" firstAttribute="top" secondItem="PbF-8n-RYh" secondAttribute="top" constant="8" id="3sT-Mn-OeN"/>
+                                                <constraint firstAttribute="bottom" secondItem="FqI-DF-WrB" secondAttribute="bottom" constant="8" id="Cja-8g-p5I"/>
+                                                <constraint firstItem="FqI-DF-WrB" firstAttribute="leading" secondItem="PbF-8n-RYh" secondAttribute="leading" constant="15" id="JMi-7y-DrU"/>
+                                                <constraint firstAttribute="trailing" secondItem="FqI-DF-WrB" secondAttribute="trailing" constant="8" id="xh1-85-tCm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="label" destination="FqI-DF-WrB" id="QUy-7e-T0o"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="6zV-qf-imb" id="4Ew-tJ-Wum"/>
+                                    <outlet property="delegate" destination="6zV-qf-imb" id="FVL-xE-l0l"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eGx-Vi-xae" firstAttribute="top" secondItem="cfX-dT-rRZ" secondAttribute="bottom" id="KKn-pf-9YB"/>
+                            <constraint firstItem="cfX-dT-rRZ" firstAttribute="top" secondItem="k46-RS-sMQ" secondAttribute="bottom" id="RfL-Wa-Ged"/>
+                            <constraint firstAttribute="trailing" secondItem="cfX-dT-rRZ" secondAttribute="trailing" id="wM4-gQ-bmv"/>
+                            <constraint firstItem="cfX-dT-rRZ" firstAttribute="leading" secondItem="RRV-mg-KSg" secondAttribute="leading" id="wRD-Cj-bOT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LGu-Jy-XQu"/>
+                    <connections>
+                        <outlet property="tableView" destination="cfX-dT-rRZ" id="FuQ-Lg-oW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oPE-Ck-aAH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4655.625" y="-1365.8450704225352"/>
+        </scene>
+        <!--Concierge-->
+        <scene sceneID="1Cm-fk-ctq">
+            <objects>
+                <navigationController id="mIW-Kh-MJb" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Concierge" image="tab-1-chats-inatcive" id="HZl-rT-6QW"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hNn-wI-HfC">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mlj-hP-dnh">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="1" green="0.35686274509999999" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="hcM-6e-nVt" kind="relationship" relationship="rootViewController" id="pTA-cZ-3Z2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Of-lF-FlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3690" y="-572"/>
+        </scene>
+        <!--Conversation List View Controller-->
+        <scene sceneID="Q2S-EL-TOG">
+            <objects>
+                <viewController id="hcM-6e-nVt" customClass="ConversationListViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="ksZ-SZ-T3j"/>
+                    <connections>
+                        <segue destination="5eU-Ma-VVS" kind="show" identifier="conversationToChat_nowUnusedDueToAsyncCallRequirements" id="gC9-xj-irA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDx-j9-idH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4657" y="-572"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="7GN-L7-JNS">
+            <objects>
+                <viewController extendedLayoutIncludesOpaqueBars="YES" hidesBottomBarWhenPushed="YES" id="5eU-Ma-VVS" customClass="ChatViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="l9c-a7-bzb"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="srJ-tw-Edl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5866.875" y="-793.30985915492954"/>
+        </scene>
+        <!--Reservation Details Hotel View Controller-->
+        <scene sceneID="LXC-RS-YD9">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="4y8-U9-LW1" customClass="ReservationDetailsHotelViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8L-ej-MZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6108" y="-199"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="tMp-xL-A4l">
+            <objects>
+                <navigationController id="kXP-pQ-PaA" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="More" image="tab-4-more-inative" id="zDc-7H-pHt"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hJ1-4k-0le">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dny-pe-Wuv" kind="relationship" relationship="rootViewController" id="pQC-v1-bfc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cDv-aC-PKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3904" y="1031"/>
+        </scene>
+        <!--More View Controller-->
+        <scene sceneID="bZU-Gn-fQF">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="dny-pe-Wuv" customClass="MoreViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="DzM-rw-UND"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nk2-6F-6OU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5001" y="1031"/>
+        </scene>
+        <!--Profil-->
+        <scene sceneID="kMZ-s2-aih">
+            <objects>
+                <navigationController id="ge9-xH-Ma5" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profil" image="tab-3-profile-inative" id="5v6-oN-R1a"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aul-OX-5gI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="siI-Gm-CbS" kind="relationship" relationship="rootViewController" id="R7n-Vh-tOc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QVS-Oc-ODZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2942" y="2479"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="9wN-Uu-8jG">
+            <objects>
+                <viewController id="siI-Gm-CbS" customClass="ProfileViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="SPR-rU-YSV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNe-xi-IYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3953" y="2478"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="XOP-Yd-yC7">
+            <objects>
+                <viewController id="sFT-14-brH" customClass="HistoryViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cJj-aR-LZ7"/>
+                        <viewControllerLayoutGuide type="bottom" id="2rv-tx-hVI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xJT-3U-Pwr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="one-dB-dmm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYf-CD-vTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4339" y="1750"/>
+        </scene>
+        <!--Journeys-->
+        <scene sceneID="oQR-nv-lzZ">
+            <objects>
+                <navigationController id="ggx-fl-UDb" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Journeys" image="tab-2-tickets-inactive" id="LHp-01-qQY"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RiG-Uy-IVe">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sUC-Yq-ud0" kind="relationship" relationship="rootViewController" id="dA1-w4-zEJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezY-t1-v81" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3690" y="281"/>
+        </scene>
+        <!--Journey View Controller-->
+        <scene sceneID="6Jn-qy-X5w">
+            <objects>
+                <viewController id="sUC-Yq-ud0" customClass="JourneyViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e1X-NY-c7r"/>
+                        <viewControllerLayoutGuide type="bottom" id="14e-RU-qJc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wwz-dr-g6D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iNt-h7-ZSx"/>
+                    <connections>
+                        <segue destination="oX5-6h-l25" kind="show" identifier="journeyToFlightDetails" id="VYd-qy-b8g"/>
+                        <segue destination="4y8-U9-LW1" kind="show" identifier="journeyToHotelDetails" id="6er-x2-QpH"/>
+                        <segue destination="ceI-Hg-Pja" kind="show" identifier="journeyToTrainDetails" id="Q6t-MB-tXs"/>
+                        <segue destination="Gad-5Q-pp1" kind="show" identifier="journeyToCarDetails" id="ilN-DE-h6n"/>
+                        <segue destination="hTz-Df-1Zg" kind="show" identifier="journeyToActivityDetails" id="q2N-2c-N2d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fpQ-BJ-gFy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4594" y="280"/>
+        </scene>
+        <!--Reservation Details Flight View Controller-->
+        <scene sceneID="4dq-Hi-epV">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="oX5-6h-l25" customClass="ReservationDetailsFlightViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPJ-cd-QSP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6699" y="-17"/>
+        </scene>
+        <!--Reservation Details Public Transport View Controller-->
+        <scene sceneID="281-h3-n62">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="ceI-Hg-Pja" customClass="ReservationDetailsPublicTransportViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9zn-af-0yP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7326" y="230"/>
+        </scene>
+        <!--Reservation Details Activity View Controller-->
+        <scene sceneID="TUB-xh-EsY">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="hTz-Df-1Zg" customClass="ReservationDetailsActivityViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="APH-Lz-YBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6699" y="761"/>
+        </scene>
+        <!--Reservation Details Car View Controller-->
+        <scene sceneID="zp7-wW-OoE">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="Gad-5Q-pp1" customClass="ReservationDetailsCarViewController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJH-pB-4mw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6108" y="813"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="CLU-nr-b44">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h0B-Wy-BdM" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eH6-hD-mcb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Ie-zb-xyG">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sFT-14-brH" kind="relationship" relationship="rootViewController" id="3WH-Kg-Nnv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Di7-Za-CcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3319" y="1751"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="mXK-8w-eOT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jYw-js-2fG" customClass="BaseNavigationController" customModule="Masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="tab-4-about-inactive" id="AAF-IJ-3dB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hOQ-iq-YoC">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6zV-qf-imb" kind="relationship" relationship="rootViewController" id="XJe-jv-tOU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H1z-5c-rsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3690" y="-1364.7887323943662"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab-1-chats-inatcive" width="27" height="27"/>
+        <image name="tab-2-tickets-inactive" width="27" height="27"/>
+        <image name="tab-3-profile-inative" width="27" height="27"/>
+        <image name="tab-4-about-inactive" width="16" height="16"/>
+        <image name="tab-4-more-inative" width="27" height="27"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="x9M-RE-DrK"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

@@ -1,0 +1,13 @@
+/* InfoPlist.strings
+  masai
+
+  Created by Florian Rath on 30.08.17.
+  Copyright © 2017 Codepool GmbH. All rights reserved. */
+
+"NSLocationWhenInUseUsageDescription" = "Zugriff auf die Standortdienste sind notwendig um den Standort zu teilen";
+
+"NSCameraUsageDescription" = "Zugriff auf die Kamera ist notwendig um Bilder aufzunehmen und zu versenden";
+
+"NSPhotoLibraryUsageDescription" = "Zugriff auf Fotobibliothek ist notwendig um Bilder zu teilen";
+
+"NSPhotoLibraryAddUsageDescription" = "Zugriff auf Fotobibliothek ist notwendig um Bilder zu speichern";

@@ -1,0 +1,13 @@
+/* InfoPlist.strings
+  masai
+
+  Created by Florian Rath on 30.08.17.
+  Copyright © 2017 Codepool GmbH. All rights reserved. */
+
+"NSLocationWhenInUseUsageDescription" = "Location permission is necessary for sharing location";
+
+"NSCameraUsageDescription" = "Camera permission is necessary for taking and sharing pictures";
+
+"NSPhotoLibraryUsageDescription" = "Photo Library permission is necessary for sharing pictures";
+
+"NSPhotoLibraryAddUsageDescription" = "Photo Library permission is necessary for saving pictures to your photo albums";

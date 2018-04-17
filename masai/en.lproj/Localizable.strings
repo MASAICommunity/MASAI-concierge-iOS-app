@@ -1,0 +1,410 @@
+/* Localizable.strings
+  masai
+
+  Created by Bartomiej Burzec on 20.01.2017.
+  Copyright © 2017 Embiq sp. z o.o. All rights reserved. */
+
+"just_now" = "just now";
+
+"a_minute_ago" = "a minute ago";
+
+"some_minutes_ago" = "%d minutes ago";
+
+"some_hours_ago" = "%d hours ago";
+
+"yesterday" = "yesterday";
+
+"some_days_ago" = "%d days ago";
+
+"service_not_available" = "Our service is currently not available. Please try again later.";
+
+"no_journeys_found" = "No reservations found";
+
+"participants" = "Participants";
+
+"begins" = "Begins";
+
+"ends" = "Ends";
+
+"confirmation_number" = "Confirmation Number";
+
+"activity" = "Activity";
+
+"pull_to_refresh" = "Pull to refresh";
+
+"car" = "Car";
+
+"pickup_date" = "Pickup date";
+
+"pickup_address" = "Pickup address";
+
+"dropoff_date" = "Dropoff date";
+
+"dropoff_address" = "Dropoff address";
+
+"tickets" = "Tickets";
+
+"passengers" = "Passengers";
+
+"seats" = "Seats";
+
+"check_in" = "Check in";
+
+"check_out" = "Check out";
+
+"address" = "Address";
+
+"from" = "From:";
+
+"to" = "To:";
+
+"ticket_number" = "Ticket Number";
+
+"user_access_count" = "Currently, %d user has access to your profile.";
+
+"set_username_already_in_use" = "Username %@ is arleady in use. Please choose another";
+
+"profile_access_title" = "Access";
+
+"profile_access_no_foreign_access" = "Currently, no one has access to your profile.";
+
+"form_list_addbutton" = "Add";
+
+"form_list_number_field_placeholder" = "Number";
+
+"journey_filter_textfield_placeholder" = "Search term";
+
+"journey_filter_future" = "Future journeys";
+
+"journey_filter_all" = "All";
+
+"journey_filter_past" = "Past journeys";
+
+"journey_filter_search_button" = "Search";
+
+"journey_title" = "Reservations";
+
+"chat_input_placeholder" = "Say something...";
+
+"chat_fileupload_error" = "File upload failed. Please try again!";
+
+"chat_fileupload_success" = "File upload successful!";
+
+"profile_title" = "Profile";
+
+"profile_switchbutton_my_info" = "My Information";
+
+"profile_switchbutton_access" = "Access Management";
+
+"profile_switchbutton_preferences" = "Travel Preferences";
+
+"profile_personal_info" = "Personal Information";
+
+"academic_title" = "Title";
+
+"first_name" = "First Name";
+
+"middle_name" = "Middle Name";
+
+"last_name" = "Last Name";
+
+"nationality" = "Nationality";
+
+"birth_date" = "Birth Date";
+
+"private_address" = "Private Address";
+
+"address_line_1" = "Address Line 1";
+
+"address_line_2" = "Address Line 2";
+
+"zip" = "ZIP";
+
+"city" = "City";
+
+"state" = "State";
+
+"country" = "Country";
+
+"contact_info" = "Contact Information";
+
+"email" = "E-Mail";
+
+"phone_number" = "Phone";
+
+"billing_address" = "Billing Address";
+
+"company_name" = "Company Name";
+
+"vat" = "VAT Number";
+
+"passport" = "Passport";
+
+"passport_number" = "Passport Number";
+
+"country_of_issuance" = "Country of Issuance";
+
+"city_of_issuance" = "City of Issuance";
+
+"date_issued" = "Date of Issuance";
+
+"expiry_date" = "Expiry Date";
+
+"application_number" = "Application Number";
+
+"location" = "Location";
+
+"valid_until" = "Valid Until";
+
+"flights" = "Flights";
+
+"Back" = "Back";
+
+"booking_class_short_haul" = "Booking Class - Short Haul";
+
+"error" = "Error";
+
+"hotel_type" = "Hotel Type";
+
+"booking_class_medium_haul" = "Booking Class - Medium Haul";
+
+"info" = "Information";
+
+"booking_class_long_haul" = "Booking Class - Long Haul";
+
+"ok" = "Ok";
+
+"anything_else" = "Anything else we should know?";
+
+"close" = "Close";
+
+"preferred_seat" = "Preferred Seat";
+
+"preferred_row" = "Preferred Row";
+
+"open" = "Open";
+
+"logout" = "Logout";
+
+"meal_preferences" = "Meal Preferences";
+
+"preferred_airlines" = "Preferred Airlines";
+
+"yes" = "Yes";
+
+"no" = "No";
+
+"airlines_to_avoid" = "Airlines to avoid";
+
+"loyalty_programs" = "Loyality Programs";
+
+"success" = "Success!";
+
+"options" = "Options";
+
+"comingSoon" = "Coming Soon";
+
+/* Localization */
+"localizationShared" = "Shared localization";
+
+"category" = "Category";
+
+/* Reconnecting */
+"reconnect" = "Successfully connected!";
+
+"room_location" = "Room Location";
+
+"amenities" = "Amenities";
+
+/* TravelFolder acces */
+"travelFolderAccessTitle" = "Request Access";
+
+"travelFolderAccesMessage" = "By agreeing to the access request, you approve to the collection, processing and use of your personal information required to provide our services. You can revoke your approve at any time.";
+
+"room_standard" = "Room Standard";
+
+"travelFolderRequestTitle" = "Request permission to access TravelFolder";
+
+"bed_type" = "Bed Type";
+
+"travelFolderAccessGranted" = "You have granted permission to your TravelFolder.";
+
+"rental_car" = "Rental Car";
+
+"travelFolderAccessDenied" = "You have denied permission to your TravelFolder.";
+
+"booking_class" = "Booking Class";
+
+"hotels_to_avoid" = "Hotels to avoid";
+
+/* Errors */
+"serverConnectError" = "Could not connect to the host!";
+
+"emailAlreadyExist" = "E-Mail already exists. Please sign in!";
+
+"preferred_hotels" = "Preferred Hotels";
+
+"errorFatal" = "An error occured. Please try again!";
+
+"car_type" = "Car type";
+
+"liveChatError" = "Could not connect to the livechat. Please try again!";
+
+"car_preferences" = "Car Preferences";
+
+"updateProfileError" = "Could not update user profile.";
+
+"extras" = "Extras";
+
+/* LoginViewController */
+"preferred_rental_companies" = "Preferred Rental Companies";
+
+"login" = "E-Mail";
+
+"train" = "Train";
+
+"pass" = "Password";
+
+"profile_access_granted" = "Access granted to other Users";
+
+"username_taken" = "Please choose another username";
+
+"emptyLoginError" = "Please enter a correct E-Mail!";
+
+"emptyFirstnameError" = "Please enter a correct first name!";
+
+"emptyLastnameError" = "Please enter a correct last name!";
+
+"emptyPassError" = "Please enter a password!";
+
+"departs" = "Departs";
+
+"arrives" = "Arrives";
+
+"noAccount" = "No Account?";
+
+"register" = "Register";
+
+"reservations" = "Reservations";
+
+"registerFacebook" = "Register with Facebook";
+
+"failed_to_create_img_folder" = "Failed to create image folder. Please try again!";
+
+"failed_to_delete_img" = "Failed to delete image. Please try again!";
+
+"registerGoogle" = "Register with Google";
+
+"resetPass" = "Forgot Password?";
+
+/* RegisterViewController */
+"username" = "Username";
+
+"repeatPass" = "Repeat Password";
+
+"passError" = "Passwords don't match.";
+
+"emailError" = "Please enter a correct E-Mail address!";
+
+/* ResetPassViewController */
+"resetPassSuccessfully" = "Password has been reset successfully. An email has been sent to the provided address.";
+
+"resetPassError" = "Reset Password";
+
+/* SelectHostViewController */
+"selectHostViewControllerTitle" = "Select Host";
+
+/* ConversationListViewController */
+"conversationListViewControllerTitle" = "Concierge";
+
+"failedLogin" = "Login failed!";
+
+"receivedFile" = "You've received a file!";
+
+"sentFile" = "You've sent a file!";
+
+"profile_access_revokebutton" = "Revoke access";
+
+"login_title" = "Sign in";
+
+"login_subtitle" = "No Account?";
+
+"register_button_title" = "Register";
+
+"or" = "or";
+
+"more_title" = "More";
+
+"hotel" = "Hotel";
+
+"request_folder_access_permission" = "Request for TravelFolder access permission";
+
+"reset_password_title" = "Reset Password";
+
+"reset_password_button" = "Reset";
+
+"back_to_login" = "Back To Login";
+
+"contact_info_email_description" = "This e-mail will be used for booking confirmations. \nNote: If you make a booking, we will provide this e-mail in the booking process. The sender of the booking confirmation is composed of an alphanumeric string and our URL (example 449axc-3a11- 45cd@oururl.com) Please check your spam folder if necessary";
+
+"live_chat_welcome_message" = "Hello";
+
+"splashscreen_loading_text" = "Trying to connect...";
+
+"no_internet_connection_alert" = "No Internet connection available";
+
+"train_travel_class" = "Travel Class";
+
+"train_compartment_type" = "Compartment type";
+
+"train_seat_location" = "Location of the seat";
+
+"train_zone" = "Zone";
+
+"train_preferred" = "Preferred train";
+
+"train_specific_booking" = "Train specific booking";
+
+"train_mobility_service" = "Mobility Service";
+
+"train_ticket" = "Ticket";
+
+"new_chat_button_title" = "Begin new chat";
+
+"channel_closed_text" = "Chat was closed";
+
+"conversation_empty_state_text" = "You don't have any open chats right now.";
+
+"history_title" = "History";
+
+"history_empty_state" = "No chats found";
+
+"history_filter_textfield_date_placeholder" = "Date";
+
+"history_filter_text" = "Text";
+
+"history_filter_date" = "Date";
+
+"history_filter_textlabel" = "Search by";
+
+"travelFolderAccess_ProfileFieldsQuestionTitle" = "Request Access";
+
+"travelFolderAccess_ProfileFieldsQuestionBody" = "In order to allow access to your profile, you need to fully fill out mandatory fields in your profile first. Do you want to do so now?";
+
+"profile_appInfoText" = "Current version:";
+
+"keep_billing_address_identical" = "Billing adress is same";
+
+"loyalty_program_valid_until" = "End of loyalty program";
+
+"contact_email" = "Contact-E-Mail";
+
+"booking_email" = "Booking Email";
+
+"about" = "About";
+
+"privacy_policy" = "Privacy Policy";
+
+"terms_of_service" = "Terms of Service";
+
+"version" = "Version";

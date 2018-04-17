@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tLK-bN-aOi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="MO0-2u-Lqq">
+            <objects>
+                <navigationController id="tLK-bN-aOi" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="waW-5G-2cX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RFd-Lg-65l"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Md4-xS-aX9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-532" y="761"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="JTs-S7-g9A"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="2wA-vr-zH6" kind="show" identifier="splashToLoginSegue" id="jzs-8G-kmU"/>
+                        <segue destination="mIW-Kh-MJb" kind="show" identifier="splashToMain" id="P34-AP-h82"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="761"/>
+        </scene>
+        <!--Reset Pass View Controller-->
+        <scene sceneID="ptO-RV-U97">
+            <objects>
+                <viewController id="Fbk-T3-IvB" customClass="ResetPassViewController" customModule="masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdG-gx-hYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879" y="-18"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="Eob-Df-sko">
+            <objects>
+                <viewController id="2wA-vr-zH6" customClass="LoginViewController" customModule="masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="mIW-Kh-MJb" kind="show" identifier="loginToMainSegue" id="8uV-fl-bj1"/>
+                        <segue destination="teE-1C-iTw" kind="show" identifier="loginToRegister" id="nYF-Y1-aHa"/>
+                        <segue destination="Fbk-T3-IvB" kind="show" identifier="loginToResetPass" id="vcT-Vg-1yh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68n-BL-Z8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="761"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="2UN-5L-PXJ">
+            <objects>
+                <viewController id="teE-1C-iTw" customClass="RegisterViewController" customModule="masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <connections>
+                        <segue destination="mIW-Kh-MJb" kind="show" identifier="registerToMain" id="5XJ-KW-PbT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaQ-FY-8aA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="1528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Cm-fk-ctq">
+            <objects>
+                <navigationController id="mIW-Kh-MJb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hNn-wI-HfC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hcM-6e-nVt" kind="relationship" relationship="rootViewController" id="pTA-cZ-3Z2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Of-lF-FlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="761"/>
+        </scene>
+        <!--Conversation List View Controller-->
+        <scene sceneID="Q2S-EL-TOG">
+            <objects>
+                <viewController id="hcM-6e-nVt" customClass="ConversationListViewController" customModule="masai" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ksZ-SZ-T3j"/>
+                    <connections>
+                        <segue destination="5eU-Ma-VVS" kind="show" identifier="conversationToChat" id="Tsr-f5-QBl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDx-j9-idH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2276" y="761"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="7GN-L7-JNS">
+            <objects>
+                <viewController id="5eU-Ma-VVS" customClass="ChatViewController" customModule="masai" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="srJ-tw-Edl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3030" y="761"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+<<<<<<< HEAD
+        <segue reference="5XJ-KW-PbT"/>
+=======
+        <segue reference="8uV-fl-bj1"/>
+>>>>>>> dev
+    </inferredMetricsTieBreakers>
+</document>
