@@ -1,0 +1,941 @@
+{
+	"status": "ok",
+	"diag": "",
+	"items": [
+		{
+			"flight": {
+				"notes": "",
+				"record-locator": "8L175F",
+				"booking-details": {
+					"name": "TAP INTERNET SALES GERMANY",
+					"phone": "+49 1806 000341",
+					"confirmation-number": "8L175F"
+				},
+				"provider-details": {
+					"name": "TAP Portugal",
+					"confirmation-number": "8L175F"
+				},
+				"total-price": {
+					"total-cost": 312.12,
+					"currency-code": "EUR"
+				},
+				"details": {
+					"number": 573,
+					"airline-code": "TP"
+				},
+				"departure": {
+					"latitude": 50.03,
+					"longitude": 8.57,
+					"airport-code": "FRA",
+					"name": "Frankfurt International Airport",
+					"terminal": 1,
+					"gate": "",
+					"local-date-time": "2015-10-21T13:25:00.000Z",
+					"utc-date-time": "2015-10-21T11:25:00.000Z"
+				},
+				"arrival": {
+					"latitude": 38.78,
+					"longitude": -9.13,
+					"airport-code": "LIS",
+					"name": "Lisboa Airport",
+					"terminal": 1,
+					"gate": "",
+					"local-date-time": "2015-10-21T15:30:00.000Z",
+					"utc-date-time": "2015-10-21T14:30:00.000Z"
+				},
+				"duration": 185,
+				"distance-in-miles": 0,
+				"class-type": "U",
+				"traveler": {
+					"first-name": "PETRAMRS",
+					"last-name": "MAIER",
+					"class-type": "U",
+					"e-ticket": "047 2160713313",
+					"price": {
+						"total-cost": 312.12,
+						"currency-code": "EUR"
+					}
+				}
+			},
+			"metadata": {
+				"ref": 2009
+			}
+		},
+		{
+			"flight": {
+				"notes": "",
+				"record-locator": "8J552K",
+				"booking-details": {
+					"name": "TAP INTERNET SALES GERMANY",
+					"phone": "+49 1806 000341",
+					"confirmation-number": "8J552K"
+				},
+				"provider-details": {
+					"name": "TAP Portugal",
+					"confirmation-number": "8J552K"
+				},
+				"total-price": {
+					"total-cost": 312.12,
+					"currency-code": "EUR"
+				},
+				"details": {
+					"number": 573,
+					"airline-code": "TP"
+				},
+				"departure": {
+					"latitude": 50.03,
+					"longitude": 8.57,
+					"airport-code": "FRA",
+					"name": "Frankfurt International Airport",
+					"terminal": 1,
+					"gate": "",
+					"local-date-time": "2015-10-21T13:25:00.000Z",
+					"utc-date-time": "2015-10-21T11:25:00.000Z"
+				},
+				"arrival": {
+					"latitude": 38.78,
+					"longitude": -9.13,
+					"airport-code": "LIS",
+					"name": "Lisboa Airport",
+					"terminal": 1,
+					"gate": "",
+					"local-date-time": "2015-10-21T15:30:00.000Z",
+					"utc-date-time": "2015-10-21T14:30:00.000Z"
+				},
+				"duration": 185,
+				"distance-in-miles": 0,
+				"class-type": "U",
+				"traveler": {
+					"first-name": "TATJANAMRS",
+					"last-name": "MAIER",
+					"class-type": "U",
+					"e-ticket": "047 2161126314",
+					"price": {
+						"total-cost": 312.12,
+						"currency-code": "EUR"
+					}
+				}
+			},
+			"metadata": {
+				"ref": 2011
+			}
+		},
+		{
+			"flight": {
+				"notes": "",
+				"booking-details": {
+					"name": "TAP INTERNET SALES GERMANY",
+					"phone": "+49 1806 000341",
+					"confirmation-number": "8L175F"
+				},
+				"provider-details": {
+					"name": "TAP Portugal",
+					"confirmation-number": "8L175F"
+				},
+				"total-price": {
+					"total-cost": 312.12,
+					"currency-code": "EUR"
+				},
+				"details": {
+					"number": 572,
+					"airline-code": "TP"
+				},
+				"departure": {
+					"latitude": 0,
+					"longitude": 0,
+					"airport-code": "",
+                    "name": "Frankfurt International Airport",
+					"terminal": "",
+					"gate": "",
+					"local-date-time": "2015-10-25T18:15:00.000Z",
+					"utc-date-time": "2015-10-25T18:15:00.000Z"
+				},
+				"arrival": {
+					"latitude": 0,
+					"longitude": 0,
+					"airport-code": "",
+                    "name": "Warsaw Chopin Airport",
+					"terminal": "",
+					"gate": "",
+					"local-date-time": "2015-10-25T22:25:00.000Z",
+					"utc-date-time": "2015-10-25T22:25:00.000Z"
+				},
+				"duration": 0,
+				"distance-in-miles": 0,
+				"class-type": "V",
+				"traveler": ""
+			},
+			"metadata": {
+				"ref": 2008
+			}
+		},
+		{
+			"flight": {
+				"notes": "",
+				"booking-details": {
+					"name": "TAP INTERNET SALES GERMANY",
+					"phone": "+49 1806 000341",
+					"confirmation-number": "8J552K"
+				},
+				"provider-details": {
+					"name": "TAP Portugal",
+					"confirmation-number": "8J552K"
+				},
+				"total-price": {
+					"total-cost": 312.12,
+					"currency-code": "EUR"
+				},
+				"details": {
+					"number": 572,
+					"airline-code": "TP"
+				},
+				"departure": {
+					"latitude": 0,
+					"longitude": 0,
+					"airport-code": "",
+                    "name": "Warsaw Chopin Airport",
+					"terminal": "",
+					"gate": "",
+					"local-date-time": "2015-10-25T18:15:00.000Z",
+					"utc-date-time": "2015-10-25T18:15:00.000Z"
+				},
+				"arrival": {
+					"latitude": 0,
+					"longitude": 0,
+					"airport-code": "",
+                    "name": "Lisboa Airport",
+					"terminal": "",
+					"gate": "",
+					"local-date-time": "2015-10-25T22:25:00.000Z",
+					"utc-date-time": "2015-10-25T22:25:00.000Z"
+				},
+				"duration": 0,
+				"distance-in-miles": 0,
+				"class-type": "V",
+				"traveler": ""
+			},
+			"metadata": {
+				"ref": 2010
+			}
+		},
+		{
+			"journey": {
+				"Name": "Reise nach San Francisco und Las Vegas",
+				"from": "2016-10-20",
+				"to": "2016-10-29"
+			},
+			"metadata": {
+				"ref": 2028
+			},
+			"segment": [
+				{
+					"flight": {
+						"notes": "",
+						"record-locator": "4E9ZCU",
+						"booking-details": {
+							"name": null,
+							"phone": "069-26541500",
+							"confirmation-number": "4E9ZCU"
+						},
+						"provider-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "4E9ZCU"
+						},
+						"total-price": {
+							"total-cost": 1361.52,
+							"currency-code": "EUR"
+						},
+						"details": {
+							"number": 454,
+							"airline-code": "LH"
+						},
+						"departure": {
+							"latitude": 50.03,
+							"longitude": 8.57,
+							"airport-code": "FRA",
+							"name": "Frankfurt International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-20T10:30:00.000Z",
+							"utc-date-time": "2016-10-20T08:30:00.000Z"
+						},
+						"arrival": {
+							"latitude": 37.615,
+							"longitude": -122.39,
+							"airport-code": "SFO",
+							"name": "SFO International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-20T12:55:00.000Z",
+							"utc-date-time": "2016-10-20T19:55:00.000Z"
+						},
+						"duration": 685,
+						"distance-in-miles": 0,
+						"class-type": "Economy",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2013
+					}
+				},
+				{
+					"hotel-reservation": {
+						"notes": "",
+						"booking-details": {
+							"name": "Booking.com",
+							"confirmation-number": 1989926126
+						},
+						"provider-details": {
+							"name": "Avalon Lodge",
+							"phone": "+15305442285",
+							"confirmation-number": 1989926126
+						},
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"hotel-name": "Avalon Lodge",
+						"address": {
+							"latitude": 0,
+							"longitude": 0,
+							"street": "South Lake Tahoe",
+							"city": "",
+							"state-code": "CA",
+							"country-code": "US",
+							"country-name": "United States",
+							"postal-code": ""
+						},
+						"check-in": "2016-10-20Z",
+						"check-out": "2016-10-21Z",
+						"room": "Preis",
+						"phone": "+15305442285",
+						"fax": "",
+						"guest": {
+							"first-name": "Heinrich",
+							"last-name": "Musterheinz"
+						}
+					},
+					"metadata": {
+						"ref": 2022
+					}
+				},
+				{
+					"flight": {
+						"notes": "",
+						"record-locator": "4E9ZCU",
+						"booking-details": {
+							"name": null,
+							"phone": "069-26541500",
+							"confirmation-number": "PVFT4L"
+						},
+						"provider-details": {
+							"name": "United",
+							"confirmation-number": "PVFT4L"
+						},
+						"total-price": {
+							"total-cost": 1361.52,
+							"currency-code": "EUR"
+						},
+						"details": {
+							"number": 943,
+							"airline-code": "UA"
+						},
+						"departure": {
+							"latitude": 37.615,
+							"longitude": -122.39,
+							"airport-code": "SFO",
+							"name": "SFO International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-23T16:05:00.000Z",
+							"utc-date-time": "2016-10-23T23:05:00.000Z"
+						},
+						"arrival": {
+							"latitude": 36.08,
+							"longitude": -115.15,
+							"airport-code": "LAS",
+							"name": "McCarran International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-23T17:43:00.000Z",
+							"utc-date-time": "2016-10-24T00:43:00.000Z"
+						},
+						"duration": 98,
+						"distance-in-miles": 0,
+						"class-type": "Economy",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2014
+					}
+				},
+				{
+					"flight": {
+						"notes": "",
+						"record-locator": "4E9ZCU",
+						"booking-details": {
+							"name": null,
+							"phone": "069-26541500",
+							"confirmation-number": "PVFT4L"
+						},
+						"provider-details": {
+							"name": "United",
+							"confirmation-number": "PVFT4L"
+						},
+						"total-price": {
+							"total-cost": 1361.52,
+							"currency-code": "EUR"
+						},
+						"details": {
+							"number": 8487,
+							"airline-code": "UA"
+						},
+						"departure": {
+							"latitude": 36.08,
+							"longitude": -115.15,
+							"airport-code": "LAS",
+							"name": "McCarran International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-28T12:15:00.000Z",
+							"utc-date-time": "2016-10-28T19:15:00.000Z"
+						},
+						"arrival": {
+							"latitude": 43.682,
+							"longitude": -79.611,
+							"airport-code": "YYZ",
+							"name": "Pearson International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-28T19:25:00.000Z",
+							"utc-date-time": "2016-10-28T23:25:00.000Z"
+						},
+						"duration": 250,
+						"distance-in-miles": 0,
+						"class-type": "Economy",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2015
+					}
+				},
+				{
+					"flight": {
+						"notes": "",
+						"record-locator": "4E9ZCU",
+						"booking-details": {
+							"name": null,
+							"phone": "069-26541500",
+							"confirmation-number": "PVFT4L"
+						},
+						"provider-details": {
+							"name": "United",
+							"confirmation-number": "PVFT4L"
+						},
+						"total-price": {
+							"total-cost": 1361.52,
+							"currency-code": "EUR"
+						},
+						"details": {
+							"number": 8594,
+							"airline-code": "UA"
+						},
+						"departure": {
+							"latitude": 43.682,
+							"longitude": -79.611,
+							"airport-code": "YYZ",
+							"name": "Pearson International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-28T21:40:00.000Z",
+							"utc-date-time": "2016-10-29T01:40:00.000Z"
+						},
+						"arrival": {
+							"latitude": 50.03,
+							"longitude": 8.57,
+							"airport-code": "FRA",
+							"name": "Frankfurt International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-10-29T11:10:00.000Z",
+							"utc-date-time": "2016-10-29T09:10:00.000Z"
+						},
+						"duration": 450,
+						"distance-in-miles": 0,
+						"class-type": "Economy",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2016
+					}
+				}
+			]
+		},
+		{
+			"journey": {
+				"Name": "Reise Paris",
+				"from": "2016-11-06",
+				"to": "2016-11-10"
+			},
+			"metadata": {
+				"ref": 2027
+			},
+			"segment": [
+				{
+					"flight": {
+						"notes": "",
+						"booking-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "68E8X3"
+						},
+						"provider-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "68E8X3"
+						},
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"details": {
+							"number": 1241,
+							"airline-code": "LH"
+						},
+						"departure": {
+							"latitude": 48.11,
+							"longitude": 16.55,
+							"airport-code": "VIE",
+							"name": "Vienna International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-06T18:10:00.000Z",
+							"utc-date-time": "2016-11-06T17:10:00.000Z"
+						},
+						"arrival": {
+							"latitude": 50.03,
+							"longitude": 8.57,
+							"airport-code": "FRA",
+							"name": "Frankfurt International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-06T19:35:00.000Z",
+							"utc-date-time": "2016-11-06T18:35:00.000Z"
+						},
+						"duration": 0,
+						"distance-in-miles": 0,
+						"class-type": "",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2017
+					}
+				},
+				{
+					"flight": {
+						"notes": "",
+						"booking-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "68E8X3"
+						},
+						"provider-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "68E8X3"
+						},
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"details": {
+							"number": 1029,
+							"airline-code": "LH"
+						},
+						"departure": {
+							"latitude": 49.013,
+							"longitude": 2.542,
+							"airport-code": "CDG",
+							"name": "Charles De Gaulle Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-09T10:55:00.000Z",
+							"utc-date-time": "2016-11-09T09:55:00.000Z"
+						},
+						"arrival": {
+							"latitude": 50.03,
+							"longitude": 8.57,
+							"airport-code": "FRA",
+							"name": "Frankfurt International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-09T12:10:00.000Z",
+							"utc-date-time": "2016-11-09T11:10:00.000Z"
+						},
+						"duration": 0,
+						"distance-in-miles": 0,
+						"class-type": "",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2019
+					}
+				},
+				{
+					"flight": {
+						"notes": "",
+						"booking-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "68E8X3"
+						},
+						"provider-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "68E8X3"
+						},
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"details": {
+							"number": 1256,
+							"airline-code": "LH"
+						},
+						"departure": {
+							"latitude": 50.03,
+							"longitude": 8.57,
+							"airport-code": "FRA",
+							"name": "Frankfurt International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-10T21:55:00.000Z",
+							"utc-date-time": "2016-11-10T20:55:00.000Z"
+						},
+						"arrival": {
+							"latitude": 48.23,
+							"longitude": 14.19,
+							"airport-code": "LNZ",
+							"name": "Hoersching Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-10T23:00:00.000Z",
+							"utc-date-time": "2016-11-10T22:00:00.000Z"
+						},
+						"duration": 0,
+						"distance-in-miles": 0,
+						"class-type": "",
+						"traveler": ""
+					},
+					"metadata": {
+						"ref": 2020
+					}
+				}
+			]
+		},
+		{
+			"journey": {
+				"Name": "Abstecher nach Frankfurt",
+				"from": "2016-11-14",
+				"to": "2016-11-15"
+			},
+			"metadata": {
+				"ref": 2029
+			},
+			"segment": [
+				{
+					"public-transportation": {
+						"booking-details": {
+							"url": "http://www.bahn.de/"
+						},
+						"provider-details": "",
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"departure": {
+							"station-name": "Linz Hbf",
+							"local-date-time": "2016-11-14T08:14:00.000Z",
+							"utc-date-time": "2016-11-14T07:14:00.000Z",
+							"platform": "",
+							"address": {
+								"latitude": 48.29,
+								"longitude": 14.292,
+								"street": "Linz Hbf",
+								"city": "Linz",
+								"country-code": "AT",
+								"country-name": "Austria"
+							},
+							"station-code": "ATLNZ"
+						},
+						"arrival": {
+							"station-name": "Frankfurt(Main)Hbf",
+							"local-date-time": "2016-11-14T13:55:00.000Z",
+							"utc-date-time": "2016-11-14T12:55:00.000Z",
+							"platform": "",
+							"address": {
+								"latitude": 50.11,
+								"longitude": 8.68,
+								"street": "Frankfurt(Main)Hbf",
+								"city": "Frankfurt",
+								"country-code": "DE",
+								"country-name": "Germany"
+							},
+							"station-code": "DEFRH"
+						},
+						"train-number": "ICE 228",
+						"seat": "",
+						"cabin": "",
+						"class-type": "",
+						"duration": 0,
+						"traveler": {
+							"price": ""
+						}
+					},
+					"metadata": {
+						"ref": 2025
+					}
+				},
+				{
+					"public-transportation": {
+						"booking-details": {
+							"url": "http://www.bahn.de/"
+						},
+						"provider-details": "",
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"departure": {
+							"station-name": "Frankfurt(Main)Hbf",
+							"local-date-time": "2016-11-15T15:56:00.000Z",
+							"utc-date-time": "2016-11-15T14:56:00.000Z",
+							"platform": "",
+							"address": {
+								"latitude": 50.11,
+								"longitude": 8.68,
+								"street": "Frankfurt(Main)Hbf",
+								"city": "Frankfurt",
+								"country-code": "DE",
+								"country-name": "Germany"
+							},
+							"station-code": "DEFRH"
+						},
+						"arrival": {
+							"station-name": "Linz Hbf",
+							"local-date-time": "2016-11-15T21:42:00.000Z",
+							"utc-date-time": "2016-11-15T20:42:00.000Z",
+							"platform": "",
+							"address": {
+								"latitude": 48.29,
+								"longitude": 14.292,
+								"street": "Linz Hbf",
+								"city": "Linz",
+								"country-code": "AT",
+								"country-name": "Austria"
+							},
+							"station-code": "ATLNZ"
+						},
+						"train-number": "ICE 229",
+						"seat": "",
+						"cabin": "",
+						"class-type": "",
+						"duration": 0,
+						"traveler": {
+							"price": ""
+						}
+					},
+					"metadata": {
+						"ref": 2026
+					}
+				},
+				{
+					"flight": {
+						"notes": "",
+						"booking-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "7Q3B8F"
+						},
+						"provider-details": {
+							"name": "Lufthansa",
+							"confirmation-number": "7Q3B8F"
+						},
+						"total-price": {
+							"currency-code": "USD"
+						},
+						"details": {
+							"number": 1254,
+							"airline-code": "LH"
+						},
+						"departure": {
+							"latitude": 50.03,
+							"longitude": 8.57,
+							"airport-code": "FRA",
+							"name": "Frankfurt International Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-15T17:10:00.000Z",
+							"utc-date-time": "2016-11-15T16:10:00.000Z"
+						},
+						"arrival": {
+							"latitude": 48.23,
+							"longitude": 14.19,
+							"airport-code": "LNZ",
+							"name": "Hoersching Airport",
+							"terminal": "",
+							"gate": "",
+							"local-date-time": "2016-11-15T18:15:00.000Z",
+							"utc-date-time": "2016-11-15T17:15:00.000Z"
+						},
+						"duration": 0,
+						"distance-in-miles": 0,
+						"class-type": "",
+						"traveler": {
+							"loyalty-program": {
+								"number": "XXXXXXXXXXXXX0674"
+							}
+						}
+					},
+					"metadata": {
+						"ref": 2012
+					}
+				}
+			]
+		},
+		{
+			"hotel-reservation": {
+				"notes": "",
+				"booking-details": {
+					"name": "Booking.com",
+					"confirmation-number": 1177324988
+				},
+				"provider-details": {
+					"name": "Hampton by Hilton Nürnberg City Center",
+					"phone": "+49 911 988966",
+					"confirmation-number": 1177324988
+				},
+				"total-price": {
+					"total-cost": 259,
+					"currency-code": "EUR"
+				},
+				"hotel-name": "Hampton by Hilton Nürnberg City Center",
+				"address": {
+					"latitude": 49.4472866,
+					"longitude": 11.0869049,
+					"street": "Bahnhofstrasse 16 Mitte 90402 Nürnberg Germany",
+					"city": "Nürnberg",
+					"state-code": "",
+					"country-code": "DE",
+					"country-name": "Germany",
+					"postal-code": 90402
+				},
+				"check-in": "2016-12-09Z",
+				"check-out": "2016-12-10Z",
+				"room": "Queen Room with Sofa",
+				"phone": "+49 911 988966",
+				"fax": "",
+				"guest": {
+					"first-name": "Heinrich",
+					"last-name": "Musterheinz",
+					"price": {
+						"total-cost": 259,
+						"currency-code": "EUR"
+					}
+				}
+			},
+			"metadata": {
+				"ref": 2021
+			}
+		},
+		{
+			"journey": {
+				"Name": "Reise nach Salzburg und ins Maltatal",
+				"from": "2017-05-15",
+				"to": "2017-05-19"
+			},
+			"metadata": {
+				"ref": 2030
+			},
+			"segment": [
+				{
+					"hotel-reservation": {
+						"notes": "",
+						"booking-details": {
+							"name": "Booking.com",
+							"confirmation-number": 1315619900
+						},
+						"provider-details": {
+							"name": "Cityhotel Trumer Stube",
+							"phone": "+43 662 874776",
+							"confirmation-number": 1218959900
+						},
+						"total-price": {
+							"total-cost": 127,
+							"currency-code": "EUR"
+						},
+						"hotel-name": "Cityhotel Trumer Stube",
+						"address": {
+							"latitude": 47.8051393,
+							"longitude": 13.0380686,
+							"street": "Bergstraße 6 Altstadt 5020 Salzburg Austria",
+							"city": "Salzburg",
+							"state-code": "",
+							"country-code": "AT",
+							"country-name": "Austria",
+							"postal-code": 5020
+						},
+						"check-in": "2017-05-15Z",
+						"check-out": "2017-05-16Z",
+						"room": "Premium Double Room",
+						"phone": "+43 662 874776",
+						"fax": "",
+						"guest": {
+							"first-name": "Musterheinz",
+							"last-name": "Heidi",
+							"price": {
+								"total-cost": 127,
+								"currency-code": "EUR"
+							}
+						}
+					},
+					"metadata": {
+						"ref": 2024
+					}
+				},
+				{
+					"hotel-reservation": {
+						"notes": "",
+						"booking-details": {
+							"name": "Booking.com",
+							"confirmation-number": 1218173937
+						},
+						"provider-details": {
+							"name": "Berghotel Malta",
+							"phone": "+43 50 3133 9130",
+							"confirmation-number": 1318944937
+						},
+						"total-price": {
+							"total-cost": 384,
+							"currency-code": "EUR"
+						},
+						"hotel-name": "Berghotel Malta",
+						"address": {
+							"latitude": 0,
+							"longitude": 0,
+							"street": "Brandstatt 36, Kölnbreinsperre 9854 Malta Austria",
+							"city": "",
+							"state-code": "",
+							"country-code": "AT",
+							"country-name": "Austria",
+							"postal-code": ""
+						},
+						"check-in": "2017-05-16Z",
+						"check-out": "2017-05-19Z",
+						"room": "Superior Double Room",
+						"phone": "+43 50 3133 9130",
+						"fax": "",
+						"guest": {
+							"first-name": "Heidi",
+							"last-name": "Musterheinz",
+							"price": {
+								"total-cost": 384,
+								"currency-code": "EUR"
+							}
+						}
+					},
+					"metadata": {
+						"ref": 2023
+					}
+				}
+			]
+		}
+	]
+}
