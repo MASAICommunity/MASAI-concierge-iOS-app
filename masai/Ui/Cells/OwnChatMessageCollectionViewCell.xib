@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OwnChatMessageCollectionViewCell" id="x7C-0s-bAz" customClass="OwnChatMessageCollectionViewCell" customModule="masai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4V-Dz-nxj">
+                        <rect key="frame" x="320" y="43" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="9"/>
+                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63a-B1-Ma4">
+                        <rect key="frame" x="308" y="5" width="10" height="36"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                    </textView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ow-38-l8y">
+                        <rect key="frame" x="322" y="27" width="14" height="14"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_message_sent" translatesAutoresizingMaskIntoConstraints="NO" id="ZKl-v9-fWT">
+                                <rect key="frame" x="2" y="2" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZKl-v9-fWT" secondAttribute="height" multiplier="1:1" id="2z6-Hf-pa2"/>
+                                    <constraint firstAttribute="width" constant="10" id="KwD-eb-Daa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="GwC-Kl-EsO"/>
+                            <constraint firstAttribute="width" secondItem="2ow-38-l8y" secondAttribute="height" multiplier="1:1" id="bdf-VS-Spn"/>
+                            <constraint firstItem="ZKl-v9-fWT" firstAttribute="centerY" secondItem="2ow-38-l8y" secondAttribute="centerY" id="jvB-uA-1cu"/>
+                            <constraint firstItem="ZKl-v9-fWT" firstAttribute="centerX" secondItem="2ow-38-l8y" secondAttribute="centerX" id="qmE-Nx-2Mf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="63a-B1-Ma4" firstAttribute="top" secondItem="x7C-0s-bAz" secondAttribute="top" constant="5" id="1jR-W2-qrD"/>
+                <constraint firstItem="2ow-38-l8y" firstAttribute="leading" secondItem="63a-B1-Ma4" secondAttribute="trailing" constant="4" id="3q0-3E-Xu2"/>
+                <constraint firstItem="2ow-38-l8y" firstAttribute="bottom" secondItem="63a-B1-Ma4" secondAttribute="bottom" id="Orx-g7-Bd5"/>
+                <constraint firstItem="d4V-Dz-nxj" firstAttribute="trailing" secondItem="63a-B1-Ma4" secondAttribute="trailing" constant="2" id="gbN-4r-HkE"/>
+                <constraint firstItem="d4V-Dz-nxj" firstAttribute="top" secondItem="63a-B1-Ma4" secondAttribute="bottom" constant="2" id="iB6-C4-BXQ"/>
+                <constraint firstAttribute="trailing" secondItem="2ow-38-l8y" secondAttribute="trailing" constant="6" id="okw-EP-RJE"/>
+                <constraint firstItem="63a-B1-Ma4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="x7C-0s-bAz" secondAttribute="leading" constant="10" id="w2I-PZ-nqX"/>
+            </constraints>
+            <size key="customSize" width="342" height="93"/>
+            <connections>
+                <outlet property="dateLabel" destination="d4V-Dz-nxj" id="GnV-vv-agm"/>
+                <outlet property="messageStatusImageView" destination="ZKl-v9-fWT" id="H5u-7R-3L5"/>
+                <outlet property="messageTextView" destination="63a-B1-Ma4" id="aOW-vZ-PZV"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="556"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_message_sent" width="15" height="15"/>
+    </resources>
+</document>

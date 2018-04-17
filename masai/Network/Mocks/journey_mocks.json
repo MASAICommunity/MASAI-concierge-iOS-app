@@ -1,0 +1,357 @@
+ [
+  {
+  "JourneyId": "bd2d3b06-4d52-4cd4-b045-38e31720986c",
+  "created": "1500895064607",
+  "UserId": "37667c41593739bd",
+  "segments": [
+               {
+               "airline": "Alaska Airlines, Inc.",
+               "arrival_datetime": "2015-06-14T19:39:00",
+               "arrival_time_zone_id": "America/Los_Angeles",
+               "class_of_service": "Coach",
+               "confirmation_no": "ABC123",
+               "created": "2015-04-10T06:03:07+0000",
+               "currency": "USD",
+               "departure_datetime": "2015-06-14T17:40:00",
+               "departure_time_zone_id": "America/Chicago",
+               "destination": "PDX",
+               "destination_name": "Portland International",
+               "destination_admin_code": "OR",
+               "destination_city_name": "Portland",
+               "destination_country": "US",
+               "destination_lat": "45.5833320617676",
+               "destination_lon": "-122.599998474121",
+               "fare_basis_code": "G",
+               "first_name": "Roger",
+               "flight_number": "655",
+               "iata_code": "AS",
+               "last_name": "Sterling",
+               "normalized_airline": "ASA",
+               "number_of_pax": "1",
+               "origin": "DFW",
+               "origin_name": "Dallas/Fort Worth International",
+               "origin_admin_code": "TX",
+               "origin_city_name": "Dallas",
+               "origin_country": "US",
+               "origin_lat": "32.9000015258789",
+               "origin_lon": "-97.0500030517578",
+               "price": "380.20",
+               "seat_assignment": "22D",
+               "source": "Alaskaairlines",
+               "status": "Active",
+               "ticket_number": "1234567890",
+               "type": "Air",
+               "travelers": [
+                             {
+                             "name": "Roger Sterling",
+                             "first_name": "Roger",
+                             "last_name": "Sterling"
+                             }
+                             ],
+               "tickets": [
+                           "1234567890"
+                           ],
+               "seats": [
+                         "22D"
+                         ],
+               "price_details": [
+                                 {
+                                 "type": "total",
+                                 "name": "Total",
+                                 "value": "380.20",
+                                 "units": "USD"
+                                 }
+                                 ]
+               },
+               {
+               "car_company": "Hertz",
+               "car_description": null,
+               "car_type": "Intermediate 2 or 4 dr., ICAR (C",
+               "confirmation_no": "G0000000000",
+               "created": "2015-04-10T06:06:35+0000",
+               "currency": "USD",
+               "dropoff_address1": "3500 South Las Vegas Boulevard",
+               "dropoff_address2": null,
+               "dropoff_admin_code": "NV",
+               "dropoff_city_name": "Las Vegas",
+               "dropoff_country": "US",
+               "dropoff_datetime": "2015-07-10T12:00:00",
+               "dropoff_lat": "36.1749687194824",
+               "dropoff_lon": "-115.137222290039",
+               "dropoff_postal_code": "89109",
+               "dropoff_time_zone_id": "America/Los_Angeles",
+               "first_name": "Pete",
+               "hours_of_operation": "Mon-Sun 7:00am-1:00pm 2:00pm-5:00pm",
+               "last_name": "Campbell",
+               "normalized_car_company": "ZE",
+               "pickup_address1": "3500 South Las Vegas Boulevard",
+               "pickup_address2": null,
+               "pickup_admin_code": "NV",
+               "pickup_city_name": "Las Vegas",
+               "pickup_country": "US",
+               "pickup_datetime": "2015-07-09T12:00:00",
+               "pickup_lat": "36.1749687194824",
+               "pickup_lon": "-115.137222290039",
+               "pickup_postal_code": "89109",
+               "pickup_time_zone_id": "America/Los_Angeles",
+               "price": "60.59",
+               "source": "Hertz",
+               "status": "Active",
+               "type": "Car",
+               "travelers": [
+                             {
+                             "name": "Pete Campbell",
+                             "first_name": "Pete",
+                             "last_name": "Campbell"
+                             }
+                             ],
+               "price_details": [
+                                 {
+                                 "type": "total",
+                                 "name": "Total",
+                                 "value": "60.59",
+                                 "units": "USD"
+                                 },
+                                 {
+                                 "type": "tax",
+                                 "name": "Tax",
+                                 "value": "9.63",
+                                 "units": "USD"
+                                 }
+                                 ]
+               },
+               {
+               "address1": "1895 Sidewinder Drive",
+               "address2": null,
+               "admin_code": "UT",
+               "cancellation_policy": "\u2022 Please note that a change in the length or dates of your reservation may result in a rate change. \u2022 To ensure that you receive this special rate, we will charge your credit card a prepayment of 1,282.58 USD. \u2022 Please send a check or money order prepayment to PARK CITY MARRIOTT PO BOX 684447 ATTN: RESERVATIONS PARK CITY UT 84060 US \u2022 You may cancel your reservation for no charge until Tuesday, January 20, 2015 (45 day[s] before arrival). \u2022 Please note that we will assess a fee of 641.29 USD if you must cancel after this deadline. If you have made a prepayment, we will retain all or part of your prepayment. If not, we will charge your credit card. \u2022 Travel agents: please note that this rate is commissionable. RATE GUARANTEE LIMITATION(S) \u2022 Changes in taxes or fees implemented after booking will affect the total room price. \u2022 Please note that a change in the length or dates of your reservation may result in a rate change. ADDITIONAL INFORMATION \u2022 The Responsible Tourist and Traveler A practical guide to help you make your trip an enriching experience",
+               "checkin_date": "2015-03-06",
+               "checkout_date": "2015-03-10",
+               "city_name": "Park City",
+               "confirmation_no": "12345678",
+               "country": "US",
+               "created": "2015-04-10T04:49:35+0000",
+               "currency": "USD",
+               "first_name": "Don",
+               "hotel_name": "Park City Marriott",
+               "last_name": "Draper",
+               "lat": "40.6460609436035",
+               "lon": "-111.497970581055",
+               "number_of_rooms": "1",
+               "postal_code": "84060",
+               "price": "1282.58",
+               "rate_description": null,
+               "room_description": null,
+               "room_type": null,
+               "source": "Marriott",
+               "status": "Active",
+               "time_zone_id": "America/Denver",
+               "type": "Hotel",
+               "travelers": [
+                             {
+                             "name": "Mr. Don Draper",
+                             "first_name": "Don",
+                             "last_name": "Draper"
+                             }
+                             ],
+               "price_details": [
+                                 {
+                                 "type": "total",
+                                 "name": "Total",
+                                 "value": "1282.58",
+                                 "units": "USD"
+                                 },
+                                 {
+                                 "type": "tax",
+                                 "name": "Tax",
+                                 "value": "31.64",
+                                 "units": "USD"
+                                 }
+                                 ]
+               }
+               ]
+  },
+  {
+  "JourneyId": "bd2d3b06-4d52-4cd4-b045-38e317234566c",
+  "created": "1500895064607",
+  "UserId": "37667c41593739bd",
+  "segments": [
+               {
+               "rail_line": "Amtrak",
+               "arrival_datetime": "2015-06-14T19:39:00",
+               "arrival_time_zone_id": "America/Los_Angeles",
+               "confirmation_no": "ABC123",
+               "created": "2015-04-10T06:03:07+0000",
+               "currency": "USD",
+               "departure_datetime": "2015-06-14T17:40:00",
+               "departure_time_zone_id": "America/Chicago",
+               "destination": "PDX",
+               "destination_name": null,
+               "destination_admin_code": "OR",
+               "destination_city_name": "Portland",
+               "destination_country": "US",
+               "destination_lat": "45.5833320617676",
+               "destination_lon": "-122.599998474121",
+               "first_name": "Roger",
+               "last_name": "Sterling",
+               "number_of_pax": "1",
+               "origin": "DAL",
+               "origin_name": null,
+               "origin_admin_code": "TX",
+               "origin_city_name": "Dallas",
+               "origin_country": "US",
+               "origin_lat": "32.9000015258789",
+               "origin_lon": "-97.0500030517578",
+               "price": "380.20",
+               "seat_assignment": "22D",
+               "source": "Amtrak",
+               "status": "Active",
+               "ticket_number": "1234567890",
+               "type": "Rail",
+               "train_number": "1234",
+               "travelers": [
+                             {
+                             "name": "Roger Sterling",
+                             "first_name": "Roger",
+                             "last_name": "Sterling"
+                             }
+                             ],
+               "tickets": [
+                           "1234567890"
+                           ],
+               "seats": [
+                         "22D"
+                         ],
+               "price_details": [
+                                 {
+                                 "type": "total",
+                                 "name": "Total",
+                                 "value": "380.20",
+                                 "units": "USD"
+                                 }
+                                 ]
+               },
+               {
+               "activity_type": "General",
+               "activity_name": "Van Halen",
+               "first_name": "Don",
+               "last_name": "Draper",
+               "start_name": "Park City Ampitheater",
+               "start_admin_code": "UT",
+               "start_address1": "1895 Sidewinder Drive",
+               "start_address2": null,
+               "start_city_name": "Park City",
+               "start_country": "US",
+               "start_lat": "40.6460609436035",
+               "start_lon": "-111.497970581055",
+               "start_postal_code": "84060",
+               "end_name": "Park City Ampitheater",
+               "end_admin_code": "UT",
+               "end_address1": "1895 Sidewinder Drive",
+               "end_address2": null,
+               "end_city_name": "Park City",
+               "end_country": "US",
+               "end_lat": "40.6460609436035",
+               "end_lon": "-111.497970581055",
+               "end_postal_code": "84060",
+               "start_datetime": "2015-03-06 18:00:00",
+               "end_datetime": "2015-03-10 22:00:00",
+               "confirmation_no": "12345678",
+               "created": "2015-04-10T04:49:35+0000",
+               "currency": "USD",
+               "price": "1282.58",
+               "source": "Email",
+               "status": "Active",
+               "time_zone_id": "America/Denver",
+               "type": "Activity",
+               "travelers": [
+                             {
+                             "name": "Mr. Don Draper",
+                             "first_name": "Don",
+                             "last_name": "Draper"
+                             }
+                             ],
+               "price_details": [
+                                 {
+                                 "type": "total",
+                                 "name": "Total",
+                                 "value": "50.00",
+                                 "units": "USD"
+                                 },
+                                 {
+                                 "type": "tax",
+                                 "name": "Tax",
+                                 "value": "8.25",
+                                 "units": "USD"
+                                 }
+                                 ]
+               }
+               ]
+  },
+  {
+  "JourneyId": "bd2d3b06-4d52-6784-b045-38e317234566c",
+  "created": "1500895064607",
+  "UserId": "37667c41593739bd",
+  "segments": [
+               {
+               "airline": "Alaska Airlines, Inc.",
+               "arrival_datetime": "2015-06-14T19:39:00",
+               "arrival_time_zone_id": "America/Los_Angeles",
+               "class_of_service": "Coach",
+               "confirmation_no": "ABC123",
+               "created": "2015-04-10T06:03:07+0000",
+               "currency": "USD",
+               "departure_datetime": "2015-06-14T17:40:00",
+               "departure_time_zone_id": "America/Chicago",
+               "destination": "PDX",
+               "destination_name": "Portland International",
+               "destination_admin_code": "OR",
+               "destination_city_name": "Portland",
+               "destination_country": "US",
+               "destination_lat": "45.5833320617676",
+               "destination_lon": "-122.599998474121",
+               "fare_basis_code": "G",
+               "first_name": "Roger",
+               "flight_number": "655",
+               "iata_code": "AS",
+               "last_name": "Sterling",
+               "normalized_airline": "ASA",
+               "number_of_pax": "1",
+               "origin": "DFW",
+               "origin_name": "Dallas/Fort Worth International",
+               "origin_admin_code": "TX",
+               "origin_city_name": "Dallas",
+               "origin_country": "US",
+               "origin_lat": "32.9000015258789",
+               "origin_lon": "-97.0500030517578",
+               "price": "380.20",
+               "seat_assignment": "22D",
+               "source": "Alaskaairlines",
+               "status": "Active",
+               "ticket_number": "1234567890",
+               "type": "Air",
+               "travelers": [
+                             {
+                             "name": "Roger Sterling",
+                             "first_name": "Roger",
+                             "last_name": "Sterling"
+                             }
+                             ],
+               "tickets": [
+                           "1234567890"
+                           ],
+               "seats": [
+                         "22D"
+                         ],
+               "price_details": [
+                                 {
+                                 "type": "total",
+                                 "name": "Total",
+                                 "value": "380.20",
+                                 "units": "USD"
+                                 }
+                                 ]
+               }
+               ]
+  }
+  ]

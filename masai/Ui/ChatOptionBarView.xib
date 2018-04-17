@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatOptionBarView" customModule="masai" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChatOptionBarView" customModule="masai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ok1-aO-ld5">
+                    <rect key="frame" x="0.0" y="0.0" width="24" height="67"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CgU-4t-hYf">
+                    <rect key="frame" x="24" y="0.0" width="253" height="67"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KqD-aL-5xE">
+                            <rect key="frame" x="0.0" y="0.0" width="50.5" height="67"/>
+                            <state key="normal" image="chatbar_keyboard"/>
+                            <connections>
+                                <action selector="onKeyboardButtonPressed:" destination="-1" eventType="touchUpInside" id="EJt-cX-MhO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZm-Du-l9p">
+                            <rect key="frame" x="50.5" y="0.0" width="51" height="67"/>
+                            <state key="normal" image="chatbar_cam"/>
+                            <connections>
+                                <action selector="onCamButtonPressed:" destination="-1" eventType="touchUpInside" id="qot-gF-u5Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Diw-FE-gvD">
+                            <rect key="frame" x="101.5" y="0.0" width="50" height="67"/>
+                            <state key="normal" image="chatbar_gallery"/>
+                            <connections>
+                                <action selector="onGalleryButtonPressed:" destination="-1" eventType="touchUpInside" id="dYE-m2-i7x"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr3-vT-8RO">
+                            <rect key="frame" x="151.5" y="0.0" width="51" height="67"/>
+                            <state key="normal" image="chatbar_location"/>
+                            <connections>
+                                <action selector="onLocationButtonPressed:" destination="-1" eventType="touchUpInside" id="XsO-P1-lYC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evN-HV-OqS">
+                            <rect key="frame" x="202.5" y="0.0" width="50.5" height="67"/>
+                            <state key="normal" image="chatbar_files"/>
+                            <connections>
+                                <action selector="onFileButtonPressed:" destination="-1" eventType="touchUpInside" id="Xf1-Hx-zaA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="evN-HV-OqS" firstAttribute="leading" secondItem="Wr3-vT-8RO" secondAttribute="trailing" id="0Mk-27-AMC"/>
+                        <constraint firstAttribute="bottom" secondItem="KqD-aL-5xE" secondAttribute="bottom" id="7Lm-d6-yna"/>
+                        <constraint firstAttribute="bottom" secondItem="evN-HV-OqS" secondAttribute="bottom" id="BPx-2I-hCk"/>
+                        <constraint firstItem="Wr3-vT-8RO" firstAttribute="width" secondItem="KqD-aL-5xE" secondAttribute="width" id="H4b-c5-2YN"/>
+                        <constraint firstItem="Wr3-vT-8RO" firstAttribute="top" secondItem="CgU-4t-hYf" secondAttribute="top" id="I8I-ug-TH1"/>
+                        <constraint firstItem="evN-HV-OqS" firstAttribute="top" secondItem="CgU-4t-hYf" secondAttribute="top" id="IAy-d3-8cy"/>
+                        <constraint firstItem="KqD-aL-5xE" firstAttribute="leading" secondItem="CgU-4t-hYf" secondAttribute="leading" id="S5y-kR-KoL"/>
+                        <constraint firstItem="EZm-Du-l9p" firstAttribute="width" secondItem="KqD-aL-5xE" secondAttribute="width" id="T18-ml-obN"/>
+                        <constraint firstItem="KqD-aL-5xE" firstAttribute="width" secondItem="CgU-4t-hYf" secondAttribute="width" multiplier="0.2" id="U6j-Hm-111"/>
+                        <constraint firstAttribute="bottom" secondItem="Diw-FE-gvD" secondAttribute="bottom" id="e24-sb-db2"/>
+                        <constraint firstItem="KqD-aL-5xE" firstAttribute="top" secondItem="CgU-4t-hYf" secondAttribute="top" id="gdi-ip-WlQ"/>
+                        <constraint firstItem="Wr3-vT-8RO" firstAttribute="leading" secondItem="Diw-FE-gvD" secondAttribute="trailing" id="hQw-yx-sda"/>
+                        <constraint firstItem="EZm-Du-l9p" firstAttribute="top" secondItem="CgU-4t-hYf" secondAttribute="top" id="hcb-pE-JZ5"/>
+                        <constraint firstAttribute="trailing" secondItem="evN-HV-OqS" secondAttribute="trailing" id="jpo-KS-UZW"/>
+                        <constraint firstItem="EZm-Du-l9p" firstAttribute="leading" secondItem="KqD-aL-5xE" secondAttribute="trailing" id="o7A-6n-rPH"/>
+                        <constraint firstAttribute="bottom" secondItem="Wr3-vT-8RO" secondAttribute="bottom" id="oGr-yl-m1n"/>
+                        <constraint firstItem="Diw-FE-gvD" firstAttribute="leading" secondItem="EZm-Du-l9p" secondAttribute="trailing" id="sUL-Hg-8I2"/>
+                        <constraint firstItem="Diw-FE-gvD" firstAttribute="width" secondItem="KqD-aL-5xE" secondAttribute="width" id="t57-bA-lTQ"/>
+                        <constraint firstAttribute="bottom" secondItem="EZm-Du-l9p" secondAttribute="bottom" id="v5h-el-jbJ"/>
+                        <constraint firstItem="Diw-FE-gvD" firstAttribute="top" secondItem="CgU-4t-hYf" secondAttribute="top" id="xwa-CW-y35"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1e-UG-lvb">
+                    <rect key="frame" x="277" y="0.0" width="24" height="67"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.91372549020000005" green="0.35686274509999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="S1e-UG-lvb" firstAttribute="width" secondItem="ok1-aO-ld5" secondAttribute="width" id="GkX-Bz-iom"/>
+                <constraint firstItem="CgU-4t-hYf" firstAttribute="leading" secondItem="ok1-aO-ld5" secondAttribute="trailing" id="MSc-yZ-mmM"/>
+                <constraint firstItem="ok1-aO-ld5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mn2-BP-Csh"/>
+                <constraint firstAttribute="trailing" secondItem="S1e-UG-lvb" secondAttribute="trailing" id="S0j-Qi-Urp"/>
+                <constraint firstItem="ok1-aO-ld5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.08" id="Yir-dF-GE5"/>
+                <constraint firstItem="CgU-4t-hYf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZfH-90-KYe"/>
+                <constraint firstItem="S1e-UG-lvb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="emu-09-mK5"/>
+                <constraint firstAttribute="bottom" secondItem="CgU-4t-hYf" secondAttribute="bottom" id="ew9-4p-fC8"/>
+                <constraint firstItem="S1e-UG-lvb" firstAttribute="leading" secondItem="CgU-4t-hYf" secondAttribute="trailing" id="ghY-ny-XcC"/>
+                <constraint firstAttribute="bottom" secondItem="S1e-UG-lvb" secondAttribute="bottom" id="h2I-rJ-OvQ"/>
+                <constraint firstItem="ok1-aO-ld5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="p7n-aN-YAz"/>
+                <constraint firstAttribute="bottom" secondItem="ok1-aO-ld5" secondAttribute="bottom" id="qQX-fc-98k"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-40.5" y="-313.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chatbar_cam" width="28" height="28"/>
+        <image name="chatbar_files" width="28" height="28"/>
+        <image name="chatbar_gallery" width="28" height="28"/>
+        <image name="chatbar_keyboard" width="28" height="28"/>
+        <image name="chatbar_location" width="28" height="28"/>
+    </resources>
+</document>

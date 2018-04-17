@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PublicTransportTableViewCell" rowHeight="111" id="YBg-dE-8Eh" customClass="PublicTransportTableViewCell" customModule="masai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YBg-dE-8Eh" id="YBZ-OO-apv">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ty-bN-Xcj">
+                        <rect key="frame" x="8" y="12" width="364" height="86.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_train" translatesAutoresizingMaskIntoConstraints="NO" id="Mdd-z4-OxU">
+                                <rect key="frame" x="8" y="8" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mdd-z4-OxU" secondAttribute="height" multiplier="1:1" id="Dfh-Zm-f4d"/>
+                                    <constraint firstAttribute="width" constant="24" id="jRS-As-THd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lotnisko im Fryderyka" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73O-VS-ARB">
+                                <rect key="frame" x="40" y="11" width="316" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.35294117650000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPR-PG-RyS">
+                                <rect key="frame" x="40" y="36" width="316" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.35294117650000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="73O-VS-ARB" secondAttribute="trailing" constant="8" id="12s-CB-Pge"/>
+                            <constraint firstItem="73O-VS-ARB" firstAttribute="leading" secondItem="Mdd-z4-OxU" secondAttribute="trailing" constant="8" id="6qp-Bq-UVI"/>
+                            <constraint firstItem="CPR-PG-RyS" firstAttribute="top" secondItem="73O-VS-ARB" secondAttribute="bottom" constant="6" id="cVC-tX-0nr"/>
+                            <constraint firstItem="73O-VS-ARB" firstAttribute="centerY" secondItem="Mdd-z4-OxU" secondAttribute="centerY" id="hej-xj-CRs"/>
+                            <constraint firstItem="Mdd-z4-OxU" firstAttribute="top" secondItem="4ty-bN-Xcj" secondAttribute="top" constant="8" id="kvc-GX-keD"/>
+                            <constraint firstItem="Mdd-z4-OxU" firstAttribute="leading" secondItem="4ty-bN-Xcj" secondAttribute="leading" constant="8" id="txF-zd-XvX"/>
+                            <constraint firstItem="CPR-PG-RyS" firstAttribute="trailing" secondItem="73O-VS-ARB" secondAttribute="trailing" id="vzb-cV-EN3"/>
+                            <constraint firstItem="CPR-PG-RyS" firstAttribute="leading" secondItem="73O-VS-ARB" secondAttribute="leading" id="wqF-Nc-Cjg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4ty-bN-Xcj" secondAttribute="bottom" constant="12" id="4kI-M5-RYD"/>
+                    <constraint firstItem="4ty-bN-Xcj" firstAttribute="leading" secondItem="YBZ-OO-apv" secondAttribute="leading" constant="8" id="5fb-sN-PDj"/>
+                    <constraint firstAttribute="trailing" secondItem="4ty-bN-Xcj" secondAttribute="trailing" constant="8" id="EH6-zd-Sti"/>
+                    <constraint firstItem="4ty-bN-Xcj" firstAttribute="top" secondItem="YBZ-OO-apv" secondAttribute="top" constant="12" id="bqS-hN-pyK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="arrivalLabel" destination="CPR-PG-RyS" id="9vc-cJ-LYA"/>
+                <outlet property="departureLabel" destination="73O-VS-ARB" id="ELO-1O-5r4"/>
+                <outlet property="reservationView" destination="4ty-bN-Xcj" id="1TK-1A-0Q0"/>
+            </connections>
+            <point key="canvasLocation" x="-117" y="-52.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_train" width="24" height="24"/>
+    </resources>
+</document>
